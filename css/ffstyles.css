@@ -1,0 +1,52 @@
+
+
+    @charset "UTF-8";
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://media.istockphoto.com/id/889008112/photo/grunge-background-in-black-and-white.jpg?b=1&s=612x612&w=0&k=20&c=37nycfqLBWu2cC-ngQELamtTZ_dzcMlcKMjSrAxTdXQ=');
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+        color: #333;
+    }
+    p {
+        line-height: 1.6;
+    }
+    /* div styles */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .content {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .sidebar {
+        width: 30%;
+        float: right;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
